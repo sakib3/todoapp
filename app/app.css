@@ -1,5 +1,7 @@
 /* app css stylesheet */
-
+.container{
+  margin-top:5px;
+}
 #taskList .strike{
 	text-decoration: line-through;
 }
@@ -21,4 +23,7 @@
 }
 #taskList .list-group-item:hover button {
   visibility: visible;
+}
+#clearTasks{
+  float: right;
 }
